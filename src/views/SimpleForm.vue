@@ -102,7 +102,7 @@ export default {
   methods: {
     sendForm (e) {
       axios.post(
-        'https://my-json-server.typicode.com/Code-Pop/Vue-3-Forms/events', this.event)
+        'https://my-json-server.typicode.com/jwansoo/v3-forms/events', this.event)
         .then(function (response) {
           console.log('Response', response)
         })
